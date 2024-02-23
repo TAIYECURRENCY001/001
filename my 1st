@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous">
+  <title>unin finance landing page</title>
+  <style>
+    .intro{
+      padding-top: 10px;
+    }
+    #hhh{
+      background-color: rgb(78, 223, 78);
+      height: 200px;
+    }
+    #ybnl{
+      background-color:cornsilk;
+      
+    }
+    #ybnl,h2{
+      text-width:22px;
+    }
+    #asake{
+      height:200px ;
+    }
+    #mmwtv{
+      background-color:#fff;
+      padding-top: 95px;
+    }
+    #mm2{
+      height: 200px;
+    }
+    
+    
+    
+  
+    
+  </style>
+
+  <body>
+  <section class="bg-dark">
+  <div class=" bg-dark">
+    <nav class="navbar navbar-expand-lg  ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#"><b>Unine</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">learn</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            App
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            community
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">unine at work</a>
+        </li>
+        <li class="nav-item">
+      <a class="nav-link text-light align-text-end" href="#">sign up</a>
+    </li>
+   </div> 
+    <button class="btn btn-success text-dark" type="submit">get started</button>
+</div>
+</div>
+  </div>
+  </section>
+
+  <section id="intro"class="bg-dark">
+    <div class=" container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2 text-light">MORE PAYMENT OPTION <br> BETTER THAN CASH</div>
+          </h1>
+          <h6 class="text-light">with a unine,you can access more than 240 <br> million custormars out there,as well as offering <br>
+            management tools,options,and payment methods.</h6>
+            <form class="container-fluid justify-content-start">
+              <button class="btn  btn-outline-light me-2"id="button">get it on app store</button>
+              <button class="btn btn-outline-light me-2" id="button">get it on play store</button>
+            </form>
+        </div>
+        <div class="col-md-5 text-center d-none d-md-block">
+          <img src="/assets/unine.png" class="img-fluid pb-3" alt="img">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="ybnl" class="mt-0">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2 class="text-dark pt-5"><b>Safe & Convinient Transaction</b></h2>
+        <p class="text-muted">want to pay anything so easy with a touch of one finger through <br>
+        UNINE,you can make practically any transaction.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card border-2">
+              <div class="card-body text-start"id="asake">
+                <h4 class="card-title text-dark"><b>Always Protected</b></h4>
+                <p class="card-text mx-5 text-muted-lead">shopping with unine is even more secure thanks to buyer protection</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-2">
+              <div class="card-body text-start"id="hhh">
+                <h4 class="card-title text-dark"><b>Get Reward</b></h4>
+                <p class="card-text mx-5 text-muted-lead">You can keep using your favorite card and keep geting rewards</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-2">
+              <div class="card-body text-start"id="asake">
+                <h4 class="card-title text-dark"><b>No Hidden Fee</b></h4>
+                <p class="card-text mx-5 text-muted-lead">you will only be charged when selling goods orrequesting payment</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-2">
+              <div class="card-body text-start"id="asake">
+                <h4 class="card-title text-dark"><b>Free Shipping</b></h4>
+                <p class="card-text mx-5 text-muted-lead">Change your mind after buying ? send back the item you purchased</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mmwtv">
+      <div class="container"id="mm2">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card bg-secondary border-0">
+        <!-- Card content for the first card -->
+        <div class="card-body text-start"id="mm2">
+                <h4 class="card-title text-dark"><b>Bank Account</b></h4>
+                <p class="card-text mx-5 text-muted-lead"></p>
+              </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card border-0">
+        <!-- Card content for the second card -->
+        <div class="card-body text-start"id="mm2">
+                <h4 class="card-title text-dark"><b>Keep your cash flow clear <br> and keep increasing </b></h4>
+                <p class="card-text mx-5 text-muted-lead"></p>
+                <button type="button" class="btn btn-success btn-lg">Large button </button>
+              </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container"id="mm2">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card bg-light border-0 pt-3">
+        <!-- Card content for the first card -->
+        <div class="card-body text-start"id="mm2">
+                <h4 class="card-title text-dark"><b>Manage regular <br>payment easily</b></h4>
+                <p class="card-text mx-5 text-muted-lead"></p>
+              </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card border-0 pt-3">
+        <!-- Card content for the second card -->
+        <div class="card-body text-start"id="mm2">
+                <h4 class="card-title text-dark"><b>Payment</b></h4>
+                <p class="card-text mx-5 text-muted-lead"></p>
+              <img src="" alt="">
+              </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </section>
+    
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  </body>
+  </head>
