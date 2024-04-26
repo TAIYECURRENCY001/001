@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+  <h1>quick feed back survey</h1>
+  <form id="surveyform">
+    <label for="name"name>name:</label>
+    <input type="text"id="name"name="name"required>
+    <label for="email"name>email:</label>
+    <input type="text"id="email"name="email"required>
+    <label for="age">age:</label>
+    <input type="number"id="age"name="age"min="10"max="20">
+    <label for="feedback-type">types of feedback</label>
+    <select name="feedback-type" id="feedback-type">
+      <option value="positive">positive</option>
+      <option value="negative">negative</option>
+      <option value="suggestion">suggestion</option>
+    </select>
+    <fieldset>
+      <legend>service used:</legend>
+      <input type="checkbox" name="services" id="service1">
+      <label for="service1">service 1</label>
+      <br>
+      <input type="checkbox" name="services" id="service2">
+      <label for="service2">service 2</label>
+      <br>
+      <input type="checkbox" name="services" id="services3">
+      <label for="services3">service 3</label>
+    </fieldset>
+    <label for="comments">additional comments:</label>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    <button type="submit">submit feedback</button>
+
+  </form>
+  </main>
+
+</body>
+</html>
+
+
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+}
+
+main {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 40px; /* Increased right padding */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px; /* Additional padding for the form */
+}
+
+label {
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #058009;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #011f03;
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+option,select{
+    text-transform: capitalize;
+}
